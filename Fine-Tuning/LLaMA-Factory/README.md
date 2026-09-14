@@ -132,7 +132,7 @@ num_train_epochs: 3.0  # 训练轮数
 lr_scheduler_type: cosine
 bf16: true  # 如果你的GPU支持BF16精度
 rope_scaling: yarn
-max_samples: '600'
+max_samples: 600
 # use_dora: false    # 若要启用DoRA，可启用该选项
 # fp16: true  # 如果GPU不支持BF16，可启用FP16
 ```
